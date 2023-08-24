@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(90deg,rgb(128, 253, 228), rgb(105, 178, 242), rgb(98, 115, 249), rgb(170, 39, 252));
+}
+
+#delete_button {
+    margin-bottom: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+#delete_button:hover {
+    background-color: red;
+    font-size: 30px;
+    color: black;
+    transition-duration: 1s;
+}
+
+.box button {
+    margin-top: 20px;
+    margin-left:660px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}

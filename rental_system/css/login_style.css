@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(120deg, rgb(244, 204, 96), rgb(211, 245, 60), rgb(138, 220, 111), rgb(120, 147, 199));
+}
+
+.login_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px lightgreen, -10px -10px 15px yellowgreen;
+}
+
+.form h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 20px;
+    border-bottom: 2px dashed darkgray;
+}
+
+.form {
+    padding: 35px 50px;
+    box-sizing: border-box;
+}
+
+.user_input {
+    position: relative;
+    border-bottom: 2px solid gray;
+    margin: 40px 0;
+}
+
+.user_input input {
+    padding: 0 5px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.submit {
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.submit:hover {
+    background-color: #ff0157;
+    transition-duration: 1s;
+}
+
+.back {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.back:hover {
+    background-color: #ff0157;
+    transition-duration: 1s;
+}

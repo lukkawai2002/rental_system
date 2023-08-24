@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(90deg, rgb(239, 237, 164), rgb(194, 249, 179), rgb(179, 250, 255));
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box button {
+    margin-top: 40px;
+    margin-left: 475px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+

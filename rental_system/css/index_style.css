@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(120deg, rgb(135, 187, 226), rgb(60, 146, 245), rgb(179, 76, 253), rgb(254, 86, 237));
+}
+
+.home_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px plum, -10px -10px 15px skyblue;
+}
+
+.home_box h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+.login_button, .registration_button {
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 25px;
+    background: deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.login_button:hover, .registration_button:hover {
+    background-color: #ff0157;
+    transition-duration: 1s;
+}

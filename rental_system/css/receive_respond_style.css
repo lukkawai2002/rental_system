@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(90deg, rgb(231, 227, 111), rgb(161, 252, 145), rgb(110, 240, 249));
+}
+
+caption {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px grey;
+    margin-bottom: 20px;
+}
+
+td, th {
+    font-size: 20px;
+}
+
+.box .back_to_menu {
+    margin-top: 20px;
+    margin-left: 670px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}

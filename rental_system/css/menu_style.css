@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(90deg,rgb(128, 253, 228), rgb(105, 178, 242), rgb(98, 115, 249), rgb(170, 39, 252));
+}
+
+.time {
+    text-align: right;
+}
+
+.box button {
+    margin-top: 20px;
+    margin-left:660px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+
+.wrap{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 58px;
+    margin-bottom: 15px;
+}
+
+#clock span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #3f58b5;
+    box-shadow: 0 5px 15px #3f58b5;
+    color: #ffffff;
+    margin: 0 15px;
+    border-radius: 15px;
+}
+
+#clock span:first-child{
+    margin-left: 0;
+}
+
+#clock span:last-child{
+    background-color: #e91e63;
+}
+
+#greeting{
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 42px;
+    padding: 20px 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 15px #bebebe;
+    animation: greeting 2s ease infinite 1s;
+}

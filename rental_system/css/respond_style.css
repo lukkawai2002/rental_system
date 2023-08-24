@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(90deg,rgb(190, 118, 253), rgb(250, 114, 205), rgb(255, 54, 54));
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 10px 10px 10px black;
+}
+
+textarea {
+    resize: none;
+    font-size: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-left: 565px;
+}
+
+input[type = "submit"] {
+    margin-top: 40px;
+    margin-left: 705px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button {
+    margin-top: 40px;
+    margin-left: 675px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.box button:hover, input[type = "submit"]:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
