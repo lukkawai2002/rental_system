@@ -1,5 +1,9 @@
 # rental_system
 
+
+# Remember to execute the table.sql first
+
+
 # Please change these if you need
 
 # localhost : host
